@@ -7,16 +7,16 @@ python_version:
   type: str
   help: Python version
   choices:
-    - Python 3.11.5 (Cloudflare compatible): 3.11.5
+    - Python 3.11.5 (Cloudflare compatible): "3.11.5"
 
 docker_image_base:
   type: str
   help: Docker base image
   choices:
-    - Python: python
+    - Python: "python"
 
 docker_image_flavour:
   type: str
   help: Docker image flavour
   choices:
-    - Debian Bookworn Slim: slim-bookworm
+    - Debian Bookworn Slim: "slim-bookworm"

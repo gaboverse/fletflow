@@ -1,0 +1,23 @@
+services:
+  tools-icons-browser:
+    build:
+      context: ./flet/app
+      dockerfile: ../Dockerfile
+    environment:
+      FLET_FORCE_WEB_SERVER: true
+    ports:
+      - "8101:8000"
+    volumes:
+      - ./flet/tools:/app
+    command: uv run flet run --web --port 8000 --host 0.0.0.0 -d -r icons-browser/main.py
+  tools-controls-gallery:
+    build:
+      context: ./flet/app
+      dockerfile: ../Dockerfile
+    environment:
+      FLET_FORCE_WEB_SERVER: true
+    ports:
+      - "8102:8000"
+    volumes:
+      - ./flet/tools:/app
+    command: uv run flet run --web --port 8000 --host 0.0.0.0 -d -r controls-gallery/main.py

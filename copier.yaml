@@ -7,19 +7,16 @@ python_version:
   type: str
   help: Python version
   choices:
-    - value: "3.11.5"
-      label: "Python 3.11.5 (Cloudflare compatible)"
+    - ["3.11.5", "Python 3.11.5 (Cloudflare compatible)"]
 
 docker_image_base:
   type: str
   help: Docker base image
   choices:
-    - value: "python"
-      label: "Python"
+    - ["python", "Python"]
 
 docker_image_flavour:
   type: str
   help: Docker image flavour
   choices:
-    - value: "slim-bookworm"
-      label: "Debian Bookworm Slim"
+    - ["slim-bookworm", "Debian Bookworm Slim"]

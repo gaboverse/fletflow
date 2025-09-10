@@ -1,4 +1,15 @@
-# User: Questions
+# +----------------------+
+# | Copier Configuration |
+# +----------------------+
+_exclude:
+  - copier.yaml
+  - __pycache__
+  - .git
+  - "{% if _copier_operation == 'update' -%}/flet/app/src/**{% endif %}"
+
+# +-----------------+
+# | User: Questions |
+# +-----------------+
 project_name:
   type: str
   help: Project name

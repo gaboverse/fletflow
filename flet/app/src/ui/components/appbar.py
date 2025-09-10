@@ -17,17 +17,15 @@ class AppBarTitle(ft.Text):
 
         self.spans = [
             ft.TextSpan(
-                text = 'my',
+                text = 'flet',
                 style = ft.TextStyle(
-                    color = '#749AD4',
-                    font_family = 'Maven Pro Bold',
+                    weight = 'BOLD',
                 ),
             ),
             ft.TextSpan(
-                text = 'app',
+                text = 'flow',
                 style = ft.TextStyle(
-                    color = '#3E5373',
-                    font_family = 'Maven Pro Bold',
+                    weight = 'NORMAL',
                 ),
             ),
         ]

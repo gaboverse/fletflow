@@ -8,5 +8,5 @@ class HomeView(ft.Column):
         super().__init__()
 
         # Content
-        text = ft.Text(value="Home!", color="red")
+        text = ft.Text(value="Welcome Home!")
         self.controls.append(text)

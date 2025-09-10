@@ -10,12 +10,6 @@ from utils.helpers import navigate
 
 def main(page: ft.Page):
 
-    # log views loaded
-
-    page.fonts = {
-        "Maven Pro Bold": "./assets/fonts/MavenPro-Bold.ttf",
-    }
-
     # +------------+
     # | App Layout |
     # +------------+

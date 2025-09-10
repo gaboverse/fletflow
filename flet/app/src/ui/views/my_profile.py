@@ -8,5 +8,5 @@ class MyProfileView(ft.Column):
         super().__init__()
 
         # Content
-        text = ft.Text(value="My Profile!", color="green")
+        text = ft.Text(value="My Profile!")
         self.controls.append(text)

@@ -1,5 +1,5 @@
 site_name: fletflow
-site_url: fletflow.gabover.se
+site_url: https://fletflow.gabover.se
 theme:
   name: material
 nav:

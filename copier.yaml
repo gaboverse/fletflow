@@ -6,6 +6,7 @@ _exclude:
   - __pycache__
   - .git
   - "{% if _copier_operation == 'update' -%}/flet/app/src/**{% endif %}"
+  - docs
 
 # +-----------------+
 # | User: Questions |

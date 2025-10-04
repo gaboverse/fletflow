@@ -1,11 +1,16 @@
-# fletflow
+![fletflow](./docs/docs/assets/img/fletflow-logo-dark.png#gh-dark-mode-only)
+![fletflow](./docs/docs/assets/img/fletflow-logo-light.png#gh-light-mode-only)
 
-Technologies:
+> An opinionated workflow for Flet apps
+
+Official Docs: [fletflow.gabover.se](https://fletflow.gabover.se/)
+
+## Technologies
 
 * [Flet](https://flet.dev/)
 * [Copier](https://copier.readthedocs.io/)
 
-Getting started:
+## Getting started
 
 1. Create a directory for your project
 2. Within it, run `copier copy git@github.com:gaboverse/fletflow.git .`

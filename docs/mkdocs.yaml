@@ -1,0 +1,14 @@
+site_name: fletflow
+site_url: https://fletflow.gabover.se
+theme:
+  name: material
+  logo: assets/img/fletflow-isotype-dark.png
+  favicon: assets/img/fletflow-isotype-light.png
+  palette:
+    primary: custom
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - fletflow: index.md
+  - Getting Started: getting-started.md
+  - Project Structure: project-structure.md

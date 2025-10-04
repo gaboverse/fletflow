@@ -2,5 +2,11 @@ site_name: fletflow
 site_url: https://fletflow.gabover.se
 theme:
   name: material
+  logo: assets/fletflow-isotype-dark.png
+  favicon: assets/fletflow-isotype-light.png
+  palette:
+    primary: custom
+extra_css:
+  - stylesheets/extra.css
 nav:
   - Home: index.md

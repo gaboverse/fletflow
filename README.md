@@ -1,6 +1,12 @@
 ![fletflow](./docs/docs/assets/img/fletflow-logo-dark.png#gh-dark-mode-only)
 ![fletflow](./docs/docs/assets/img/fletflow-logo-light.png#gh-light-mode-only)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/docs/assets/img/fletflow-logo-dark.png#">
+  <source media="(prefers-color-scheme: light)" srcset="./docs/docs/assets/img/fletflow-logo-light.png">
+  <img alt="fletflow" src="./docs/docs/assets/img/fletflow-logo-light.png">
+</picture>
+
 > An opinionated workflow for Flet apps
 
 Official Docs: [fletflow.gabover.se](https://fletflow.gabover.se/)

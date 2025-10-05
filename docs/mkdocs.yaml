@@ -12,3 +12,4 @@ nav:
   - fletflow: index.md
   - Getting Started: getting-started.md
   - Project Structure: project-structure.md
+  - Makefile: makefile.md

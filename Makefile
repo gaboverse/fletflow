@@ -9,7 +9,7 @@ devel-symlink:
 
 devel-uv-init:
 	docker compose run --rm flet uv init
-	docker compose run --rm flet uv add 'flet[all]' --dev
+	docker compose run --rm flet uv add 'flet[all]=={{ flet_version }}' --dev
 	docker compose run --rm flet uv add 'wdb' --dev
 
 

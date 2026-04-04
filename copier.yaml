@@ -15,6 +15,10 @@ project_name:
   type: str
   help: Project name
 
+flet_version:
+  type: str
+  help: Flet version (check https://pypi.org/project/flet/#history)
+
 python_version:
   type: str
   help: Python version
